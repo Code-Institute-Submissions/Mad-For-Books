@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Sarabun:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Mali:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -9,3 +9,60 @@
 body {
     font-family: Arimo, sans-serif;
 }
+
+header a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: Mali, sans-serif;
+    color: #35635b;
+    text-transform: uppercase;
+}
+
+/* logo and header section */
+
+header {
+    background-color: #e5f1e3;
+}
+
+#logo {
+    text-align: center;
+    font-size: 220%;
+    padding: 0.5em;
+    letter-spacing: 2px;
+}
+
+/* nav links styling */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu li {
+    float: left;
+    padding: 1em;
+}
+
+nav h2 {
+    float: right;
+    padding: 0.5em;
+}
+
+/* reading img below heading */
+
+#book-img {
+    background: url('../images/kids-club.jpg');
+    width: 50%;
+    height: 600px;
+    background-size: contain;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+
+
+
+
