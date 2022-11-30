@@ -74,9 +74,10 @@ h1, h2 {
 
 #book-img h2 {
     color: aliceblue;
+    
 }
 
-#book-img p {
+#book-img p hr {
     color: aliceblue;
 }
 
