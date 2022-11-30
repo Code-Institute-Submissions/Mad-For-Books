@@ -23,17 +23,23 @@ h1, h2 {
 /* logo and header section */
 
 header {
-    background-color: #e5f1e3;
+    background-color: black;
 }
 
 #logo {
-    text-align: center;
     font-size: 220%;
-    padding: 0.5em;
     letter-spacing: 2px;
+    float: left;
+    margin-left: 0.8em;
 }
 
+
+
 /* nav links styling */
+
+#menu, #logo {
+    line-height: 75px;
+}
 
 #menu {
     font-size: 110%;
@@ -41,24 +47,27 @@ header {
 }
 
 #menu li {
-    float: left;
-    padding: 1em;
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
 }
 
-nav h2 {
-    float: right;
-    padding: 0.5em;
+#menu a {
+    text-decoration: none;
+    color: #35635b;
 }
 
 /* reading img below heading */
 
 #book-img {
-    background: url('../images/kids-club.jpg');
-    width: 50%;
-    height: 600px;
+    background: url('../images/girl-ga6ad0d6cd_1280.png') no-repeat center center;
+    width: 100%;
+    height: 300px;
     background-size: contain;
     overflow: hidden;
-    border-radius: 50%;
+    margin-left: 300px;
+    padding: 1em;
+    
 }
 
 
