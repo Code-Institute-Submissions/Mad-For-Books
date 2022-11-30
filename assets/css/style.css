@@ -72,13 +72,21 @@ h1, h2 {
     margin-left: 300px;  
 }
 
-#book-img h2 {
+#img-text h2 {
     color: aliceblue;
     
 }
 
-#book-img p hr {
+#img-text p {
     color: aliceblue;
+}
+
+#img-text {
+    bottom: 300px;
+    left: 200px;
+    position: absolute;
+    border: solid aliceblue;
+    border-width: 10px;
 }
 
 
