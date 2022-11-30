@@ -74,19 +74,24 @@ h1, h2 {
 
 #img-text h2 {
     color: aliceblue;
+    padding: 10px;
     
 }
 
 #img-text p {
     color: aliceblue;
+    padding: 10px;
+    font-size: 18px;
 }
 
 #img-text {
-    bottom: 300px;
+    bottom: 250px;
     left: 200px;
     position: absolute;
     border: solid aliceblue;
-    border-width: 10px;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 
