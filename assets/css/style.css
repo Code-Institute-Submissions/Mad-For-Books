@@ -94,6 +94,28 @@ h1, h2 {
     border-radius: 25px;
 }
 
+/* goals section */
+
+.goals {
+    display: inline-block;
+    padding: 1em;
+    border: solid #35635b;
+    margin-top: 25px;
+  
+}
+
+.goals h3 {
+    text-align: center;
+    bottom: 5px;
+}
+
+#our-goals h2 {
+    text-align: center;
+}
+
+#our-goals {
+    padding: 20px;
+}
 
 
 
