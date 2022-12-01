@@ -100,27 +100,48 @@ h1, h2, h3 {
     display: inline-block;
     padding: 1em;
     border: solid #35635b;
-    margin-top: 25px;
+    margin-top: 45px;
     border-radius: 25px;
 }
 
 .goals h3 {
     text-align: center;
-    bottom: 5px;
     text-transform: uppercase;
 }
 
 #our-goals h2 {
     text-align: center;
+    margin-top: 15px;
+
 }
 
 #our-goals {
     padding: 20px;
     background-color: #edf6f9;
+    height: 300px;
 }
 
+/* footer */
 
+footer {
+    height: 150px;
+    background-color: #35635b;
+}
 
+.socials {
+    text-align: center;
+}
+
+.socials > li {
+    display: inline;
+}
+
+.socials i {
+    color: #edf6f9;
+    font-size: 25px;
+    margin-top: 20px ;
+    padding: 3%;
+}
 
 
 
