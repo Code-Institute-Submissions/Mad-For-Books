@@ -22,6 +22,10 @@ h1, h2, h3 {
 
 /* logo and header section */
 
+header {
+    height: 75px;
+}
+
 #logo {
     font-size: 220%;
     letter-spacing: 2px;
@@ -144,4 +148,10 @@ footer {
 }
 
 
+/* book club times */
+
+#club-times {
+    height: 400px;
+    width: 100%;
+}
 
