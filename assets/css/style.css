@@ -150,8 +150,36 @@ footer {
 
 /* book club times */
 
+#club-times h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
 #club-times {
-    height: 400px;
+    height: 500px;
+}
+
+#club-times-img {
+    height: 350px;
     width: 100%;
+    background: url(../images/monster-g5ac1d0d02_1920\ -\ Edited.png) no-repeat;
+    float: left;
+    margin-top: 30px;
+    position: absolute;
+    background-size: contain;
+}
+
+table {
+    height: 300px;
+    width: 70%;
+    padding: 15px;
+    text-align: left;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #35635b;
+    color: #edf6f9;
 }
 
