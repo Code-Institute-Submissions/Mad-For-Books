@@ -189,3 +189,11 @@ tr:nth-child(even) {
     color: #edf6f9;
 }
 
+/* sign up form */
+
+form {
+    height: 400px;
+    width: 50%;
+}
+
+
