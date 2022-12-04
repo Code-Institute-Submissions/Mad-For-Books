@@ -23,7 +23,7 @@ h1, h2, h3 {
 /* logo and header section */
 
 header {
-    height: 75px;
+    height: 50px;
 }
 
 #logo {
@@ -153,10 +153,13 @@ footer {
 #club-times h2 {
     text-align: center;
     margin-top: 30px;
+    padding: 1em;
+    
 }
 
 #club-times {
     height: 500px;
+    background-color: aliceblue;
 }
 
 #club-times-img {
@@ -164,7 +167,7 @@ footer {
     width: 100%;
     background: url(../images/monster-g5ac1d0d02_1920\ -\ Edited.png) no-repeat;
     float: left;
-    margin-top: 30px;
+    margin-top: 70px;
     position: absolute;
     background-size: contain;
 }
@@ -172,10 +175,13 @@ footer {
 table {
     height: 300px;
     width: 70%;
-    padding: 15px;
-    text-align: left;
+    padding: 20px;
+    text-align: center;
     margin-left: 380px;
-    margin-top: 20px;
+    margin-top: 10px;
+    border: solid #35635b;
+    border-radius: 25px;
+    
 }
 
 tr:nth-child(even) {
