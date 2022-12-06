@@ -22,14 +22,11 @@ h1, h2, h3 {
 
 /* logo and header section */
 
-header {
-    height: 50px;
-}
 
 #logo {
     font-size: 220%;
     letter-spacing: 2px;
-    float: left;
+    display: flex;
     margin-left: 0.8em;
 }
 
@@ -44,11 +41,14 @@ header {
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
 }
 
 #menu li {
     list-style-type: none;
-    float: right;
     margin-right: 30px;
 }
 
@@ -89,23 +89,39 @@ header {
 }
 
 #img-text {
-    bottom: 250px;
-    left: 200px;
     position: absolute;
+    box-sizing: border-box;    
     border: solid aliceblue;
     border-width: 2px;
     padding: 10px;
     border-radius: 25px;
+    margin-top: -290px;
+    margin-left: 140px;
+}
+
+#bottom-home {
+    height: 500px;
+    width: 100%;
+    background-color: #35635b;
+}
+
+#bottom-img {
+    background: url(../images/kids-gee231ee80_1280.png) no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: contain;
+    margin-left: 150px;
 }
 
 /* goals section */
 
 .goals {
-    display: inline-block;
-    padding: 1em;
-    border: solid #35635b;
-    margin-top: 45px;
-    border-radius: 25px;
+    width: 33.3%;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 .goals h3 {
@@ -113,9 +129,12 @@ header {
     text-transform: uppercase;
 }
 
-#our-goals h2 {
-    text-align: center;
+.rows h2 {
     margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
 
 }
 
@@ -123,6 +142,11 @@ header {
     padding: 20px;
     background-color: #edf6f9;
     height: 300px;
+}
+
+#goals-section {
+    height: 300px;
+    background-color: aliceblue;
 }
 
 /* footer */
