@@ -28,14 +28,20 @@ h1, h2, h3 {
     letter-spacing: 2px;
     display: flex;
     margin-left: 0.8em;
+    margin-top: 0.8em;
+    
+  
 }
 
-
+header {
+    height: 50px;
+    width: 100%;
+}
 
 /* nav links styling */
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 10px
 }
 
 #menu {
@@ -45,6 +51,7 @@ h1, h2, h3 {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     flex-basis: 100%;
+    
 }
 
 #menu li {
@@ -115,28 +122,29 @@ h1, h2, h3 {
 
 /* goals section */
 
-.goals {
-    width: 33.3%;
-    display: flex;
+#goals-section h2 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.column {
+    width: 33.33%;
     flex-basis: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    padding: 15px;
+    margin-top: 30px;
 }
 
-.goals h3 {
+.column h3 {
     text-align: center;
-    text-transform: uppercase;
 }
 
-.rows h2 {
-    margin-top: 15px;
+.row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-
+    flex-wrap: nowrap;
 }
+
+
 
 #our-goals {
     padding: 20px;
@@ -146,6 +154,7 @@ h1, h2, h3 {
 
 #goals-section {
     height: 300px;
+    width: 100%;
     background-color: aliceblue;
 }
 
