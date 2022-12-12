@@ -71,9 +71,9 @@ header {
 
 #background-cover {
     background-color: #35635b;
-    overflow: hidden;
     display: flex;
     padding: 2.4rem;
+    height: 300px;
 }
 
 #book-img {
@@ -85,15 +85,16 @@ header {
 
 #img-text h2 {
     color: aliceblue;
+    text-align: center;
 }
 
 #img-text {
-    box-sizing: border-box;
-    border: solid aliceblue;
+    border: dotted aliceblue;
     border-width: 2px;
     padding: 10px;
     border-radius: 25px;
     color: aliceblue;
+    text-align: center;
 }
 
 
@@ -103,18 +104,39 @@ header {
 
 
 #bottom-home {
-    height: 500px;
-    width: 100%;
     background-color: #35635b;
+    overflow: hidden;
+    display: flex;
+    padding: 2.4rem;
 }
 
 #bottom-img {
     background: url(../images/kids-gee231ee80_1280.png) no-repeat;
-    height: 400px;
-    width: 100%;
     background-size: contain;
-    margin-left: 150px;
+    padding: 1em;
+    min-width: 30%;
+    margin: 0 0 0 3.5em;
 }
+
+#bottom-text {
+    color: aliceblue;
+    border: dotted aliceblue;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#bottom-text h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+#bottom-text h3 {
+    color: aliceblue;
+
+}
+
+
 
 /* goals section */
 
@@ -143,7 +165,7 @@ header {
 
 
 #goals-section {
-    height: 250px;
+    height: 300px;
     width: 100%;
     background-color: aliceblue;
 }
@@ -154,7 +176,7 @@ header {
 
 footer {
     height: 150px;
-    background-color: #35635b;
+    background-color: aliceblue;
 }
 
 .socials {
@@ -166,7 +188,7 @@ footer {
 }
 
 .socials i {
-    color: #edf6f9;
+    color: #35635b;
     font-size: 25px;
     margin-top: 20px ;
     padding: 3%;
@@ -184,27 +206,18 @@ footer {
 #club-times {
     height: 600px;
     background-color: aliceblue;
-}
-
-#club-times-img {
-    height: 350px;
     width: 100%;
-    background: url(../images/monster-g5ac1d0d02_1920\ -\ Edited.png) no-repeat;
-    float: left;
-    margin-top: 70px;
-    position: absolute;
-    background-size: contain;
 }
 
 table {
     height: 500px;
     width: 70%;
-    padding: 20px;
+    padding: 1em;
     text-align: center;
     margin: 0 auto;
     border: dotted #35635b;
     border-radius: 25px;
-    
+  
 }
 
 tr:nth-child(even) {
@@ -215,32 +228,22 @@ tr:nth-child(even) {
 /* sign up form */
 
 #form-area {
-    height: 550px;
+    height: 600px;
     width: 100%;
-    background-color: #35635b;
-    margin-top: 25px;
-    
-    
+    padding: 15px;
+    background-color: #35635b
+   
 }
 
 #form {
     height: 400px;
-    width: 40%;
-    color: aliceblue;
+    width: 50%;
+    color: aliceblue; 
     border: solid aliceblue;
     border-radius: 25px;
     padding: 20px;
-    margin: 50px 0 0 150px;
-    position:absolute;
-}
-
-#image-signup {
-    background: url(../images/books-gb33b92f23_1280.png) no-repeat;
-    height: 280px;
-    width: 80%;
-    margin: 50px 0 0 650px;
-    position: absolute;
-    background-size: contain;
+    margin: 0 auto;
+    margin-top: 2em;
 }
 
 form h2 {
@@ -252,9 +255,60 @@ form h2 {
 
 .text-input {
     border: 2px aliceblue;
-    margin: 5px 0 20px 0;
+    margin: 5px 0 20px 0;    
     width: 100%;
+    background-color: aliceblue;
+    color: aliceblue;
+
 }
+
+/* media queries */
+
+@media screen and (max-width: 1250px) {
+    #club-times {
+        height: 1000px;
+    }
+    
+    table {
+        border: none;
+        height: 850px;
+        padding: 0.2em;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 975px) {
+    #background-cover {
+        height: 500px;
+        
+    }
+
+    #img-text {
+        font-size: 1.2em;
+        border: none;
+    }
+
+    #goals-section {
+        height: 550px;
+    }
+
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .column {
+        width: 100%;
+        padding: 1em;
+    }
+
+    
+
+
+
+}   
+
 
 
 

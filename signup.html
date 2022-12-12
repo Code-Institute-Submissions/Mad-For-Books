@@ -41,7 +41,7 @@
 
     <section id="form-area">
         <div id="form">
-            <div id="image-signup"></div>
+            
         <form action="https://formdump.codeinstitute.net" method="post">
 
             <h2> Lets get Reading! </h2>
@@ -59,21 +59,23 @@
             <input class="text-input" type="number" id="phone" required>
             <br>
             <label for="preference">What Class are you most interested in? </label>
-            <input class="text-input" type="text" id="preference" list="preference" required>
-            <datalist id="preference">
-                <option value="Group Reading"></option>
-                <option value="Dress Up and Read"></option>
-                <option value="121 Reading"></option>
-            </datalist>
+            <select name="preference" id="preference">
+                <option value="Group Reading"> Group Reading </option>
+                <option value="Dress Up and Read"> Dress up and Read</option>
+                <option value="121 Reading"> 121 Reading </option>
+                <option value="Not sure"> Not Sure </option>
+            </select>
+            <br>
             <input type="submit">
 
         </div>
-                
+                    
                       
 
 
         </form>
     
+        
     </section>
 
 
