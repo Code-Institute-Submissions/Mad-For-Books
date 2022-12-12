@@ -104,16 +104,7 @@ header {
 #bottom-home {
     background-color: #35635b;
     overflow: hidden;
-    display: flex;
     padding: 2.4rem;
-}
-
-#bottom-img {
-    background: url(../images/kids-gee231ee80_1280.png) no-repeat;
-    background-size: contain;
-    padding: 1em;
-    min-width: 30%;
-    margin: 0 0 0 3.5em;
 }
 
 #bottom-text {
@@ -128,8 +119,19 @@ header {
 }
 
 #bottom-text h3 {
-    color: aliceblue;
+    color: #35635b;
+    text-align: center;
+}
 
+.p-1-bottom {
+    background-color: aliceblue;
+    color: #35635b;
+    padding: 1em;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    border: solid#35635b;
+    border-radius: 25%;
 }
 
 
@@ -305,12 +307,14 @@ form h2 {
         margin-top: 40px;
         font-size: 1.2em;
     }
-
-    
 }
 
+@media screen and (max-width: 800px) {
+    #background-cover {
+        height: 600px;
+        
+    }
 
-
-
+}
 
 
