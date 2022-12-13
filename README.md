@@ -1,108 +1,55 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# MAD FOR BOOKS! 
+Mad for Books is a site that encourages parents/guardians to involve their children in our book club, and take advantage of the different classes that aim to encourage children to see reading as a fun and exciting enterprise, rather than a reluctant acitivty. Due to the age range for the book clubs being aimed at pre school (under 5 years old), the site is very much targeted towards parents and guardians of children who are looking for extra carricular activity, or as a social club where their children can interact with other children and connect through reading. The site is very informative and simplistic in its design, it aims to gives busy parents, all the information they need in a quick and coherent manner without too much complexity. 
 
-Welcome JimGardner0204,
+## Features 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Navigation Bar
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- Featured on all three pages throughout the site. The navigation bar has links to the Homepage, Book Club Times and Sign Up pages.
+- The nav bar design has been kept the same throughout all pages on the site to allow for easy and repetitive navigation
+- It follows a simple layout that feeds in with the feel of the rest of the site with an easy to read font size and clear and concise page headings.
 
-## Gitpod Reminders
+### Welcome To Section 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- The Welcome To section is our opportunity to summarise what we are about as a book club. 
+- The Sub Heading repeats our name and follows the same font styling as the header with slightly minimised text.
+- The content in this section aims to be informative but also direct and straight to the point. We list our different classes in the first sentence and follow this up with some key benefits we believe our club can give children.
+- The second half of content describes our motivations and what we aim to achieve through the children using our book clubs and the content finishes with some useful generic information visitors of the site would expect.
+- The image chosen feeds in with the simplistic nature of the site but also adds an eye catching combination of different colours, it also plays out the objective of the site which is to engage children with books and reading. 
 
-`python3 -m http.server`
+## Our Mission 
 
-A blue button should appear to click: _Make Public_,
+- This section gives visitors to the site more understanding of our motivations and gives Mad for Books an identity.
+- The demographic this site is aimed at are potentially entrusting us to further their childrens education through further reading, so this section is about selling our aims for their children and what we focus on to ensure the development and enjoyment is present.
+- Again, the content is compact, informative and based around features and benefits.
 
-Another blue button should appear to click: _Open Browser_.
+## Our Classes
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- The bottom of the homepage feeds into the next natural place a visitor will go on the site and gives a summary of the classes we offer as a book club.
+- The classes are titled to give an understanding of what the class entails through its name, however this section aims to expand and answer any potential questions.
+- As mentioned above, this site is very much an introduction to the book club and an attempt to engage more parents and get their kids signed up, so while this section could have alot more content in terms of the make up of each class, this would not feed into the simplistic nature of the site. 
 
-A blue button should appear to click: _Make Public_,
+## The Footer
 
-Another blue button should appear to click: _Open Browser_.
+- The footer has useful links to our social media > Facebook, Twitter and Instagram. Upon clicking each one will open in a new tab.
+- The colour scheme stays in touch with the site and this follows the same design throughout the entire site, just like the header. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Book Club Times 
 
-To log into the Heroku toolbelt CLI:
+- The Book Club Times gives a visitor to the site exactly what they want > a simply designed table with easy to read content that gives them the information they require.
+- The table lists all the vital information a visitor to the site will need including, time, location, the duration of the class, what the activity is and also how many children that specific class is for.
+- There is also clear instructions on how to get more information and sign your child up for the classes within the table at the bottom of the page.
+- I think it was important both on this page, and our sign up page, to keep the design the same in terms of pallete and feel, but be very direct with the information. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Sign Up Page
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- This page allows the user to send in all their relevant information to Mad for Books with the aim of us then contacting the user to formally sign their children upo and ge tthem booked in for classes
+- The sign up page covers all the key information expected with all the fields being required or the form unable to be submitted
+- The user can also select which class interests them the most from the drop down bar where they are also able to select "not sure" should they have no preference at this time.
 
-------
+## Features to Implement
 
-## Release History
+- A blog which discusses our favourite childrens books and what we are reading at that time would be beneficial to the site and would feed into our mission of promoting reading as a fun and rewarding activity for the children.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
