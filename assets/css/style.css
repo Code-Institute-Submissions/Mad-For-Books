@@ -258,13 +258,20 @@ form h2 {
 
 }
 
-.submit {
+input[type=submit] {
     background-color: aliceblue;
     margin: 1em;
     padding: 10px;
     font: inherit;
     font-size: 0.9em;
     border-radius: 25%;
+}
+
+#preference {
+    font-size: 0.9em;
+    margin: 8px 5px 0 0;
+    padding: 1px;
+    color: #35635B;
 }
 
 /* media queries */
@@ -378,6 +385,10 @@ form h2 {
 
     #goals-section {
         height: 700px;
+    }
+
+    #form {
+        border: none;
     }
 }
 
