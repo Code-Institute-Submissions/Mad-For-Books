@@ -27,7 +27,6 @@ h1, h2, h3 {
     font-size: 220%;
     letter-spacing: 2px;
     display: flex;
-    margin-left: 0.8em;
     margin-top: 0.8em;
     color: aliceblue;
     
@@ -334,6 +333,10 @@ input[type=submit] {
         justify-content: center;
     }
 
+    #menu {
+        margin-left: 30px;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -352,7 +355,7 @@ input[type=submit] {
 
 @media screen and (max-width: 700px) {
     #club-times {
-        height: 1150px;
+        height: auto;
     }
 
     #background-cover {
@@ -371,13 +374,14 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 470px) {
-    nav {
-        font-size: 12px;
-        margin-left: 50px;
+    
+    header {
+        height: auto;
     }
-
-    #logo {
-        font-size: 1.5em;
+    
+    #menu {
+        font-size: 1em;
+        line-height: normal;
     }
 
     #menu li {
@@ -401,8 +405,21 @@ input[type=submit] {
    
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 375px) {
 
+    #logo {
+        text-align: center;
+        line-height: normal;
+    }
+
+    #menu {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    line-height: 1.5em;
+    }
 
 
 }
