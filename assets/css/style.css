@@ -308,6 +308,7 @@ input[type=submit] {
     .row {
         flex-direction: column;
         text-align: center;
+        width: 95%;
     }
 
     .column {
@@ -355,7 +356,17 @@ input[type=submit] {
     }
 
     #background-cover {
-        height: 700px;
+        height: auto;
+    }
+
+    #goals-section {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        width: 90%;
     }
 }
 
@@ -383,20 +394,19 @@ input[type=submit] {
         visibility: hidden;
     }
 
-    #goals-section {
-        height: 700px;
-    }
-
     #form {
         border: none;
     }
+
+   
 }
 
-@media screen and (max-width: 370px) {
-    #background-cover {
-        height: 900px;
-    }
+@media screen and (max-width: 300px) {
+
+
+
 }
+ 
   
 
 
