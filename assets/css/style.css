@@ -404,6 +404,11 @@ input[type=submit] {
         border: none;
     }
 
+    #club-times {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
    
 }
 
