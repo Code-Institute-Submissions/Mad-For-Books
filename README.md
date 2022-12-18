@@ -76,13 +76,23 @@ Mad for Books is a site that encourages parents/guardians to involve their child
 
 ## Testing
 
-PART TO BE COMPLETED 
+- The site works on browsers chrome, firefox and Microsoft Edge
+
+- The site is responsive and works well both aesthetically and functionally on all standard screen sizes, this was checked both using my tangible devices, namely an iphone SE and ipad and also confirmed using devtools device toolbar
+
+- I have confirmed all links navigate to correct locations and work well, they are readable and easy to understand.
+
+- I have confirmed the form works with the fields required needed before submitting.
 
 ### Validator Testing 
 
 - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjimgardner0204.github.io%2FMad-For-Books%2F)
 
 - No errors were returned when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjimgardner0204.github.io%2FMad-For-Books%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- Accessibility > I confirmed the colors and fonts chosen for the site are easy to read and accessible by running the site through lightouse in devtools.
+
+![Image showing results from lighthouse for site](assets/images/lighthouse.PNG)
 
 ### Unfixed Bugs 
 
