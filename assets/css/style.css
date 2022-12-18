@@ -230,7 +230,7 @@ tr:nth-child(even) {
 }
 
 #form {
-    height: 400px;
+    height: 500px;
     width: 50%;
     color: aliceblue; 
     border: solid aliceblue;
@@ -253,6 +253,9 @@ form h2 {
     width: 100%;
     background-color: aliceblue;
     color: #35635b;
+    height: 28px;
+    font-size: 15px;
+    padding: 3px;
 
 }
 
@@ -366,6 +369,10 @@ input[type=submit] {
     #goals-section {
         height: auto;
     }
+
+    #form {
+        border: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -397,10 +404,6 @@ input[type=submit] {
 
     #book-img {
         visibility: hidden;
-    }
-
-    #form {
-        border: none;
     }
 
     #club-times {
