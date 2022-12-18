@@ -264,6 +264,7 @@ input[type=submit] {
     font: inherit;
     font-size: 0.9em;
     border-radius: 25%;
+    color: #35635B;
 }
 
 #preference {
