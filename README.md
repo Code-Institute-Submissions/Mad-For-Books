@@ -1,6 +1,8 @@
 # MAD FOR BOOKS! 
 Mad for Books is a site that encourages parents/guardians to involve their children in our book club, and take advantage of the different classes that aim to encourage children to see reading as a fun and exciting enterprise, rather than a reluctant acitivty. Due to the age range for the book clubs being aimed at pre school (under 5 years old), the site is very much targeted towards parents and guardians of children who are looking for extra carricular activity, or as a social club where their children can interact with other children and connect through reading. The site is very informative and simplistic in its design, it aims to gives busy parents, all the information they need in a quick and coherent manner without too much complexity. 
 
+![Image showing website responsiveness on different screen sizes](https://ibb.co/pns5t1F)
+
 ## Features 
 
 ### Navigation Bar
@@ -51,5 +53,41 @@ Mad for Books is a site that encourages parents/guardians to involve their child
 
 - A blog which discusses our favourite childrens books and what we are reading at that time would be beneficial to the site and would feed into our mission of promoting reading as a fun and rewarding activity for the children.
 
+## Testing
 
+PART TO BE COMPLETED 
+
+# Validator Testing 
+
+- No errors were returned when passing through the official [W3C Validator] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fjimgardner0204.github.io%2FMad-For-Books%2F)
+
+- No errors were returned when passing through the official [Jigsaw Validator] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjimgardner0204.github.io%2FMad-For-Books%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+# Unfixed Bugs 
+
+- TO BE COMPLETED
+
+## Deployment 
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab
+- On the left hand taskbar, find the tab "pages"
+- Find the source section and select the drop down bar option "Deploy from a branch"
+- Save the branch and the page will refresh with the link to the live site
+
+The live link to the site can be found here - [Mad For Books Live Site] (https://jimgardner0204.github.io/Mad-For-Books/)
+
+## Credits 
+
+Below I have listed and assigned the content used within the website 
+
+# Content
+
+- The social media icons on the footer were taken from [Font Awesome] (https://fontawesome.com/)
+- The coding for the flex responsive design was learnt from Tania Rascia on [Codepen] (https://codepen.io/)
+
+# Media
+
+- - The image used on the homepage was taken from [Pixabay] (https://pixabay.com/)
 
