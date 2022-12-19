@@ -404,6 +404,8 @@ input[type=submit] {
         visibility: hidden;
     }
 
+    /*scroll added to table element on mobile devices for improved user experience*/
+
     #club-times {
         width: 100%;
         overflow-x: scroll;
