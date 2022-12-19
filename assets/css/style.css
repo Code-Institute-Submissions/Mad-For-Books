@@ -386,7 +386,6 @@ input[type=submit] {
     }
     
     #menu {
-        font-size: 0.9em;
         line-height: normal;
     }
 
@@ -422,7 +421,6 @@ input[type=submit] {
     }
 
     #menu {
-    font-size: 0.8em;
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: nowrap;
