@@ -229,7 +229,6 @@ tr:nth-child(even) {
 }
 
 #form {
-    height: 500px;
     width: 50%;
     color: aliceblue; 
     border: solid aliceblue;
@@ -350,7 +349,6 @@ input[type=submit] {
     }
 
     #form {
-        height: 450px;
         width: 80%;
         font-size: 1.2em;
         }
