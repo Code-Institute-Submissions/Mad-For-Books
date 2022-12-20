@@ -36,6 +36,11 @@ h1, h2, h3 {
 header {
     padding: 1rem;
     background-color: #35635b;
+    border-bottom: 2px solid white;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
 }
 
 /* nav links styling */
@@ -66,13 +71,15 @@ header {
     color: aliceblue
 }
 
-/* reading img below heading */
+/* welcome to section */
 
 #background-cover {
     background-color: #35635b;
     display: flex;
     padding: 2.4rem;
-    height: 300px;
+    height: auto;
+    top: 79px;
+    position: relative;
 }
 
 #book-img {
@@ -95,10 +102,39 @@ header {
 }
 
 
+/* goals section */
+
+#goals-section h2 {
+    text-align: center;
+    padding: 1em;
+}
+
+.column {
+    width: 33.33%;
+    flex-basis: 100%;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.column h3 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
 
+#goals-section {
+    height: 300px;
+    width: 100%;
+    background-color: aliceblue;
+}
 
 
+/* our classes homepage section */
 
 #bottom-home {
     background-color: #35635b;
@@ -174,6 +210,7 @@ header {
 footer {
     height: 150px;
     background-color: aliceblue;
+    border-top: 2px solid #35635B;
 }
 
 .socials {
@@ -192,7 +229,7 @@ footer {
 }
 
 
-/* book club times */
+/* book club times - table */
 
 .h2-table {
     text-align: center;
@@ -200,7 +237,7 @@ footer {
 }
 
 #club-times {
-    height: 700px;
+    height: auto;
     background-color: aliceblue;
     width: 100%;
 }
@@ -220,11 +257,13 @@ tr:nth-child(even) {
     color: #edf6f9;
 }
 
+
 /* sign up form */
 
 #form-area {
     padding: 15px;
-    background-color: #35635b
+    background-color: #35635b;
+    min-height: calc(100vh - 256px);
    
 }
 
@@ -275,7 +314,9 @@ input[type=submit] {
     height: 28px;
 }
 
-/* media queries */
+/* media queries 
+
+1250px desktop vs laptop */
 
 @media screen and (max-width: 1250px) {
     #club-times {
@@ -290,6 +331,8 @@ input[type=submit] {
     }
 
 }
+
+/* 975px tablet to laptop */
 
 @media screen and (max-width: 975px) {
     #background-cover {
@@ -318,6 +361,8 @@ input[type=submit] {
     }
 
 }   
+
+/* header change at 825px */
 
 @media screen and (max-width: 825px) {
     nav {
