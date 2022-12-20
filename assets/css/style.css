@@ -215,6 +215,14 @@ footer {
     border-top: 2px solid #35635B;
 }
 
+.footer {
+    height: 150px;
+    background-color: aliceblue;
+    border-top: 2px solid #35635B;
+    top: 79px;
+    position: relative;
+}
+
 .socials {
     text-align: center;
 }
