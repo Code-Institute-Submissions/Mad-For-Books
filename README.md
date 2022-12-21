@@ -78,10 +78,6 @@ Mad for Books is a site that encourages parents/guardians to involve their child
 
 ## Testing
 
-- The site works on browsers chrome, firefox and Microsoft Edge
-- I have confirmed all links navigate to correct locations and work well, they are readable and easy to understand.
-- I have confirmed the form works with the fields required needed before submitting.
-
 ### Validator Testing 
 
 ### HTML Validation 
@@ -126,6 +122,14 @@ Mad for Books is a site that encourages parents/guardians to involve their child
 | Devtools Emulator iPad Air    | Chrome 108    | Windows 10  | 820 x 1180   |
 | Real Asus E210 Laptop         | Firefox 88    | Windows 10  | 768 x 1366   |
 | Real Tablet Amazon Fire 10 HD | Silk          | Fire OS 7.1 | 1200 x 1920  |
+
+### Manual Testing- 
+
+- I have confirmed all links navigate to correct locations and work well, they are readable and easy to understand.
+- I have confirmed the form works with the fields required needed before submitting highlighted in the screengrab below.
+
+![Alt text](assets/images/manual%20testing%20form%20screen%20grab.PNG)
+
 
 ### Unfixed Bugs 
 
