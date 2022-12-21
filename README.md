@@ -74,22 +74,58 @@ Mad for Books is a site that encourages parents/guardians to involve their child
 ### Features to Implement
 
 - A "Thank you" page for signing up and sending the user details over, with further information on next steps for the user.
-- A blog which discusses our favourite childrens books and what we are reading at that time would be beneficial to the site and would feed into our mission of promoting reading as a fun and rewarding activity for the children.
+
 
 ## Testing
 
 - The site works on browsers chrome, firefox and Microsoft Edge
-- The site is responsive and works well both aesthetically and functionally on all standard screen sizes, this was checked both using my tangible devices, namely an iphone SE and ipad and also confirmed using devtools device toolbar
 - I have confirmed all links navigate to correct locations and work well, they are readable and easy to understand.
 - I have confirmed the form works with the fields required needed before submitting.
 
 ### Validator Testing 
 
-- No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjimgardner0204.github.io%2FMad-For-Books%2F)
-- No errors were returned when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjimgardner0204.github.io%2FMad-For-Books%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- Accessibility > I confirmed the colors and fonts chosen for the site are easy to read and accessible by running the site through lightouse in devtools.
+### HTML Validation 
+
+- Index.html validation 
+
+![index.html validation screenshot](assets/images/index.html%20validation.PNG)
+
+- bookclubtimes.html validation 
+
+![Alt text](assets/images/bookclubtimes.html%20validation.PNG)
+
+- signup.html validation
+
+![Alt text](assets/images/signup.html%20validation.PNG)
+
+
+### CSS Validation
+
+- style.css
+
+![Alt text](assets/images/css%20validation%20mad%20for%20books.PNG)
+
+
+- Accessibility  
+    - I confirmed the colors and fonts chosen for the site are easy to read and accessible by running the site through lightouse in devtools.
 
 ![Image showing results from lighthouse for site](assets/images/lighthouse.PNG)
+
+
+## Compatibility and Responsive Testing
+
+- I have ensured my site works well both aesthetically and functionally on a variety of devices and browsers as noted in my table below:
+
+
+| Tool/Device                   | Browser       | OS          | Screen Width |
+|-------------------------------|---------------|-------------|--------------|
+| Devtools Emulator Galaxy Fold | Chrome 108    | Windows 10  | 280 x 653    |
+| Real Phone iPhone 12          | Safari 15.6.1 | iOS16       | 390 x 844    |
+| Real Phone iPhone SE          | Safari 15.6.1 | iOS16       | 375 x 667    |
+| Devtools Emulator Pixel 5     | Chrome 108    | Windows 10  | 393 x 851    |
+| Devtools Emulator iPad Air    | Chrome 108    | Windows 10  | 820 x 1180   |
+| Real Asus E210 Laptop         | Firefox 88    | Windows 10  | 768 x 1366   |
+| Real Tablet Amazon Fire 10 HD | Silk          | Fire OS 7.1 | 1200 x 1920  |
 
 ### Unfixed Bugs 
 
