@@ -92,14 +92,14 @@ header {
 
 #img-text h2 {
     color: aliceblue;
-    text-align: left;
+    text-align: center;
     margin-top: 10px;
 }
 
 #img-text {
     padding: 10px;
     color: aliceblue;
-    text-align: center;
+    text-align: left;
 }
 
 

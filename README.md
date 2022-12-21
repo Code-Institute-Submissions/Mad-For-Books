@@ -1,8 +1,16 @@
 # MAD FOR BOOKS! 
-Mad for Books is a site that encourages parents/guardians to involve their children in our book club, and take advantage of the different classes that aim to encourage children to see reading as a fun and exciting enterprise, rather than a reluctant acitivty. Due to the age range for the book clubs being aimed at pre school (under 5 years old), the site is very much targeted towards parents and guardians of children who are looking for extra carricular activity, or as a social club where their children can interact with other children and connect through reading. The site is very informative and simplistic in its design, it aims to gives busy parents, all the information they need in a quick and coherent manner without too much complexity. 
+
+Mad for Books is a site that encourages parents/guardians to involve their children in our book club, and take advantage of the different classes that aim to encourage children to see reading as a fun and exciting enterprise, rather than a reluctant acitivty. The site is very informative and simplistic in its design, it aims to gives busy parents, all the information they need in a quick and coherent manner without too much complexity. 
 
 ![Image showing website responsiveness on different screen sizes](assets/images/AmIResponsive.PNG)
 
+### Author 
+
+James Gardner
+
+### Target Audience
+
+- Due to the age range for the book clubs being aimed at pre school (under 5 years old), the site is very much targeted towards parents and guardians of children who are looking for extra carricular activity, or as a social club where their children can interact with other children and connect through reading.
 
 ## Features 
 
@@ -61,7 +69,9 @@ Mad for Books is a site that encourages parents/guardians to involve their child
 - A scroll bar comes into effect at max width 470px as the table become distorted and unreadable and i felt this gave the best user experience at that screen size.
 - I think it was important both on this page, and our sign up page, to keep the design the same in terms of pallete and feel, but be very direct with the information. 
 
-![Class Times Page Image](assets/images/ClassTimes.PNG)
+![Alt text](assets/images/classtimes%20laptop.PNG)
+
+![Alt text](assets/images/classtimes%20mobile.PNG)
 
 ### Sign Up Page
 
@@ -69,7 +79,9 @@ Mad for Books is a site that encourages parents/guardians to involve their child
 - The sign up page covers all the key information expected with all the fields being required or the form unable to be submitted
 - The user can also select which class interests them the most from the drop down bar where they are also able to select "not sure" should they have no preference at this time.
 
-![Sign Up Page Image](assets/images/Signuppage.PNG)
+![Alt text](assets/images/signup%20laptop.PNG)
+
+![Alt text](assets/images/signup%20mobile.PNG)
 
 ### Features to Implement
 
@@ -130,10 +142,13 @@ Mad for Books is a site that encourages parents/guardians to involve their child
 
 ![Alt text](assets/images/manual%20testing%20form%20screen%20grab.PNG)
 
+- Once submitted the form goes through to code institute data dump page in new tab 
+- Looks good on mobile, tablet, laptop and desktop.
+
 
 ### Unfixed Bugs 
 
-- TO BE COMPLETED
+- The logo and navigation menu are very slightly off center under 825px screen width. This is aesthetically very difficult to see for the user and has no impact on the core functionality of the site.
 
 ## Deployment 
 
@@ -158,6 +173,14 @@ Below I have listed and assigned the content used within the website
 ### Media
 
 - - The image used on the homepage was taken from [Pixabay](https://pixabay.com/)
+
+## Acknowledgements 
+
+- I would like to acknowledge the input from my code institute mentor Malia Havlicek on her expert guidance and input into this project.
+- I have taken key learnings from the Code Institute Love Running Project as well as the website [codepen](https://codepen.io/) and especially the developer Tania Rascia who explained and created code for flex grids.
+- I have used the site [W3 Schools](https://www.w3schools.com/) that has provided me with great examples and clarification code for this project.
+
+
 
 
 
