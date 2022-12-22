@@ -2,7 +2,7 @@
 
 Mad for Books is a site that encourages parents/guardians to involve their children in our book club, and take advantage of the different classes that aim to encourage children to see reading as a fun and exciting enterprise, rather than a reluctant acitivty. The site is very informative and simplistic in its design, it aims to gives busy parents, all the information they need in a quick and coherent manner without too much complexity. 
 
-![Image showing website responsiveness on different screen sizes](assets/images/AmIResponsive.PNG)
+![image showing website on different screen sizes](assets/images/amiresponsivemadforbooks.PNG)
 
 ### Author 
 
@@ -21,11 +21,7 @@ James Gardner
 - It follows a simple layout that feeds in with the feel of the rest of the site with an easy to read font size and clear and concise page headings.
 - The navbar changes design at 825px screen width and 375px screen width.
 
-![Navigation Bar for computer monitors](assets/images/Navbarcomputer.PNG)
-
-![Navigation Bar for Tablets](assets/images/navbartablet.PNG)
-
-![Navigation Bar for Phones](assets/images/navbarphone.PNG)
+![navigation bar laptop view](assets/images/navbar%20desktop.PNG)
 
 ### Welcome To Section 
 
@@ -36,7 +32,7 @@ James Gardner
 - The image chosen feeds in with the simplistic nature of the site but also adds an eye catching combination of different colours, it also plays out the objective of the site which is to engage children with books and reading. 
 - The image is hidden at max width 475px.
 
-![Welcome To Section Image](assets/images/welcometosection.PNG)
+![Welcome to section laptop view](assets/images/welcometo%20desktop.PNG)
 
 ### Our Mission 
 
@@ -44,7 +40,7 @@ James Gardner
 - The demographic this site is aimed at are potentially entrusting us to further their childrens education through further reading, so this section is about selling our aims for their children and what we focus on to ensure the development and enjoyment is present.
 - Again, the content is compact, informative and based around features and benefits.
 
-![Our Mission Section Image](assets/images/ourmission.PNG)
+![Our Mission laptop view](assets/images/ourmission.PNG)
 
 ### Our Classes
 

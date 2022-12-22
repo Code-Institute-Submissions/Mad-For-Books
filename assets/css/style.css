@@ -237,6 +237,19 @@ footer {
     padding: 3%;
 }
 
+/* footer social media hover effects */
+
+footer a:hover i {
+    color: teal;
+    transform: rotate(15deg) scale(1.2);
+}
+
+.footer a:hover i {
+    color: teal;
+    transform: rotate(15deg) scale(1.2);
+}
+
+
 
 /* book club times - table */
 
