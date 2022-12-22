@@ -100,6 +100,7 @@ header {
     padding: 10px;
     color: aliceblue;
     text-align: left;
+    font-size: 1.2em;
 }
 
 
@@ -129,7 +130,7 @@ header {
 
 
 #goals-section {
-    height: 300px;
+    height: auto;
     width: 100%;
     background-color: aliceblue;
 }
@@ -141,11 +142,13 @@ header {
     background-color: #35635b;
     overflow: hidden;
     padding: 2.4rem;
+    font-size: 1.2em;
 }
 
 #bottom-text {
     color: aliceblue;
     padding: 10px;
+
 
 }
 
