@@ -454,11 +454,12 @@ input[type=submit] {
 
 @media screen and (max-width: 470px) {
 
-    /*header changed from fixed to relative for ux on mobile devices*/
+    /*header changed from fixed to relative for ux on mobile devices - width changed to auto to centre logo and nav on mobile devices*/
 
     header {
         height: auto;
         position: relative;
+        width: auto;
     }
 
     #menu {

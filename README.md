@@ -65,9 +65,9 @@ James Gardner
 - A scroll bar comes into effect at max width 470px as the table become distorted and unreadable and i felt this gave the best user experience at that screen size.
 - I think it was important both on this page, and our sign up page, to keep the design the same in terms of pallete and feel, but be very direct with the information. 
 
-![Alt text](assets/images/classtimes%20laptop.PNG)
+![Class Times laptop view](assets/images/classtimes%20laptop.PNG)
 
-![Alt text](assets/images/classtimes%20mobile.PNG)
+![Class times mobile view](assets/images/classtimes%20mobile.PNG)
 
 ### Sign Up Page
 
@@ -75,14 +75,23 @@ James Gardner
 - The sign up page covers all the key information expected with all the fields being required or the form unable to be submitted
 - The user can also select which class interests them the most from the drop down bar where they are also able to select "not sure" should they have no preference at this time.
 
-![Alt text](assets/images/signup%20laptop.PNG)
+![Sign up page laptop view](assets/images/signup%20laptop.PNG)
 
-![Alt text](assets/images/signup%20mobile.PNG)
+![Sign up page mobile view(assets/images/signup%20mobile.PNG)
+
+### Animations
+
+- I have made the icons in the footer rotate 15 degrees and change color to teal when hovered over as shown in the image below.
+
+![Alt text](assets/images/bookclubtimes.html%20validation.PNG)
+
+
 
 ### Features to Implement
 
 - A "Thank you" page for signing up and sending the user details over, with further information on next steps for the user.
 
+- Add a Favicon to the site
 
 ## Testing
 
@@ -156,6 +165,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Save the branch and the page will refresh with the link to the live site
 
 The live link to the site can be found here - [Mad For Books Live Site](https://jimgardner0204.github.io/Mad-For-Books/)
+
+The link to my repository can be found here - [Mad For Books Repository](https://github.com/JimGardner0204/Mad-For-Books)
 
 ## Credits 
 
