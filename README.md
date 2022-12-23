@@ -77,13 +77,13 @@ James Gardner
 
 ![Sign up page laptop view](assets/images/signup%20laptop.PNG)
 
-![Sign up page mobile view(assets/images/signup%20mobile.PNG)
+![Sign up page mobile view](assets/images/signup%20mobile.PNG)
 
 ### Animations
 
 - I have made the icons in the footer rotate 15 degrees and change color to teal when hovered over as shown in the image below.
 
-![Alt text](assets/images/bookclubtimes.html%20validation.PNG)
+![image showing animation on footer](assets/images/animation%20footer.PNG)
 
 
 
@@ -99,6 +99,8 @@ James Gardner
 
 ### HTML Validation 
 
+To validate my HTML files I have used the following site - [HTML Validation](https://validator.nu/)
+
 - Index.html validation 
 
 ![index.html validation screenshot](assets/images/index.html%20validation.PNG)
@@ -113,6 +115,8 @@ James Gardner
 
 
 ### CSS Validation
+
+For CSS validation I have used the following site - [CSS Validation](https://jigsaw.w3.org/css-validator/)
 
 - style.css
 
