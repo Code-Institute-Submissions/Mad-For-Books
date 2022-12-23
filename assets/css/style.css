@@ -348,10 +348,7 @@ input[type=submit] {
 1250px desktop vs laptop */
 
 @media screen and (max-width: 1250px) {
-    #club-times {
-        height: 1000px;
-    }
-
+    
     table {
         border: none;
         height: 850px;
@@ -412,6 +409,12 @@ input[type=submit] {
     #menu {
         margin-left: 30px;
         font-size: 1em;
+    }
+
+/* title sitting behind nav bar on some sized tablet screens */  
+    
+    #club-times {
+        top: 90px;
     }
 
 }
